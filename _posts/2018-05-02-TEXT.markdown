@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "这是一个测试文章"
+subtitle:   "Hello，this is subtitle！"
+date:       2018-05-02 14:06:00
+author:     "GR"
+header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 测试文章
+    - 第一篇文章
+    - WGR
+---
+
+
+> 这是一个文段<br><br>
+> 这也是一个文段
+
+## 失败是成功之母
+
