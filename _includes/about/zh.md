@@ -3,9 +3,9 @@
 
 Hey，我是王国荣，多出没于[博客](https://wangguorong.github.io)、[微博]()、[知乎]()、[Twitter]()、[Github](http://github.com/wangguorong1996) 等地带，绝招尚在开发中。
 
-目前大三在校生，电子科学与技术专业，自学前端开发。
+目前大三在校生，电子科学与技术专业，自学前端开发，正在学习Jquery。
 
-一些作品和开源项目，👉 戳 [Github](http://github.com/wangguorong1996)、[]()。 
+一些作品和开源项目，👉 戳 [Github](http://github.com/wangguorong1996)。 
 
 
 ##### Talks
