@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Markdown: Basics"
+title:      "Markdown"
 subtitle:   "Markdown is a text-to-HTML conversion tool for web writers. "
 date:       2018-05-03 23:27:00
 author:     "GR"
