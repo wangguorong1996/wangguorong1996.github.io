@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Markdown: Basics 入门笔记"
+title:      "Markdown入门笔记"
 subtitle:   "Markdown is a text-to-HTML conversion tool for web writers. "
 date:       2018-05-03 23:21:00
 author:     "GR"
@@ -22,8 +22,8 @@ tags:
 ## 段落、标题、区块
 - 一个以上的空行则会划分出不同的段落
 - 两种标题语法
-    - Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题）。
-    - Atx 形式在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶。
+    Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题）。
+    Atx 形式在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶。
 - 区块引用则使用 email 形式的 '>' 角括号。
 
 ## 修辞和强调
