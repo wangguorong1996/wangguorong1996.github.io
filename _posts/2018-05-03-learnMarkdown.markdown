@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Markdown入门笔记"
-subtitle:   "Markdown is a text-to-HTML conversion tool for web writers. "
-date:       2018-05-03 23:21:00
+title:      "这是第二个测试文章"
+subtitle:   "Hello，this is subtitle！"
+date:       2018-05-03 17:27:00
 author:     "GR"
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
@@ -10,9 +10,8 @@ catalog:    true
 tags:
     - 入门
     - 笔记
-    - Markdown
+    - WGR
 ---
-
 
 > Markdown 的目标是实现「易读易写」。<br><br>
 > 一种适用于网络的书写语言。
