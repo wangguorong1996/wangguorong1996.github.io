@@ -1,17 +1,14 @@
----
+﻿---
 layout:     post
-title:      "Markdown入门"
-subtitle:   "Markdown is a text-to-HTML conversion tool for web writers. "
-date:       2018-05-03 23:27:00
+title:      "Markdown入门"
+subtitle:   "Markdown is a text-to-HTML conversion tool for web writers."
+date:       2018-05-03 23:27:00
 author:     "GR"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
-header-mask: 0.3
-catalog:    true
+header-img: "img/post-bg-markdown.jpg"
 tags:
-    - 入门
-    - 笔记
-    - 学习   
-    
+    - 入门
+    - 笔记
+    - Markdown
 ---
 
 > Markdown 的目标是实现「易读易写」。<br><br>
@@ -38,6 +35,3 @@ tags:
 ## 代码
 使用反引号来标记代码区段，区段内的 &、< 和 > 都会被自动的转换成 HTML 实体。
 `<DOCTYPE html>`
-
-
-
