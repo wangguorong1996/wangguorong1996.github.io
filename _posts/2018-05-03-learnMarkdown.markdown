@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      "Markdown入门"
 subtitle:   "Markdown is a text-to-HTML conversion tool for web writers."
