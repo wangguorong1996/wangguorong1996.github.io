@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "JavaScript高级程序设计（一）"
+title:      "js高程笔记"
 subtitle:   "笔记"
 date:       2018-05-08 2:17:00
 author:     "GR"
