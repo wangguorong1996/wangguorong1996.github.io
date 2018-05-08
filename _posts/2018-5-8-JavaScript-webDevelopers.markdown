@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      "JavaScript高级程序设计（一）"
-subtitle:   "学习笔记"
-date:       2018-05-08 14:55:00
+title:      "Markdown入门"
+subtitle:   "Markdown is a text-to-HTML conversion tool for web writers."
+date:       2018-05-03 23:27:00
 author:     "GR"
-header-img: "img/post-bg-js-1.jpg"
+header-img: "img/post-bg-markdown.jpg"
 tags:
-    - 笔记 
-
+    - 笔记
+    - js
+    - JavaScript
 ---
-
 > 测试。<br><br>
 > 
