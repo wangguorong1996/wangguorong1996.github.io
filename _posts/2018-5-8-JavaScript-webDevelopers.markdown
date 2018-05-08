@@ -8,7 +8,7 @@ header-img: "img/post-bg-js-1.jpg"
 tags:
     - 笔记
     - JavaScript
-    - 红宝书 
+    - 红宝书
 ---
 
 > 测试。<br><br>
