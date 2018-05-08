@@ -1,15 +1,15 @@
 ---
 layout:     post
-title:      "JavaScript¸ß¼¶³ÌÐòÉè¼Æ£¨Ò»£©"
-subtitle:   "±Ê¼Ç"
+title:      "JavaScripté«˜çº§ç¨‹åºè®¾è®¡ï¼ˆä¸€ï¼‰"
+subtitle:   "ç¬”è®°"
 date:       2018-05-08 2:17:00
 author:     "GR"
 header-img: "img/post-bg-javascript1.jpg"
 tags:
-    - ±Ê¼Ç
+    - ç¬”è®°
     - JavaScript
-    - ºì±¦Êé
+ Â  Â - çº¢å®ä¹¦
 ---
 
-> <br><br>
+> æµ‹è¯•<br><br>
 > 
