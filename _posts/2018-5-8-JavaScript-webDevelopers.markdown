@@ -7,7 +7,6 @@ author:     "GR"
 header-img: "img/post-bg-js-1.jpg"
 tags:
     - 笔记
-    - JavaScript
     - 红宝书
 ---
 
