@@ -205,9 +205,9 @@ length属性，取得任何字符串属性长度`alert(texe.length);`
 转换字符变量：
 - toString（）方法，返回相应值的字符串表现。null和undefined没有这个方法。默认输出十进制，以进制数作为第一个参数可输出二进制、八进制、十六进制
 - String（）函数，将任何类型的值转换为字符串。
-    - 如果值有toString（）方法则调用该方法
-    - 如果值为null，返回"null"
-    - 如果值为undefined，返回"undefined"
+    - 如果值有toString（）方法则调用该方法
+    - 如果值为null，返回"null"
+    - 如果值为undefined，返回"undefined"
 
 ## 操作符
 
