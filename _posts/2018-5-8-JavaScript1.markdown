@@ -38,6 +38,7 @@ tags:
 </div>
 
 # 第2章 在HTML中使用JavaScript
+
 ## `<script>`元素
 - type属性的值依旧还是text/javascript但不是必需。
 - 解释器对`<script>`元素内部的所有代码求值完毕以前，页面其余内容都不会被浏览器加载或显示。
@@ -50,9 +51,11 @@ tags:
 
 ## 1.语法
 区分大小写
+
 ### 标识符
 - 驼峰大小写格式，第一个单词小写，剩下的每个单词首字母大写
 - 不能把关键字、保留字、ture、false、null用作标识符
+
 ### 注释
 - // 单行注释
 - `/*`
@@ -60,6 +63,7 @@ tags:
   `*/`
 ### 严格模式
 指定函数中、脚本顶部添加编译指示`"use strict";`为这门语言中容易出错的地方施加限制
+
 ### 语句
 - 分号;结尾
 - 多条语句组合到一个{}代码块
@@ -80,6 +84,7 @@ tags:
 
 ## 4.数据类型
 基本数据类型：Undefined、Null、Boolean、Number、String<br>复杂数据类型：Object
+
 ### typeof操作符
 检测变量数据类型，可能返回字符串：
 - “undefined”未定义
@@ -88,11 +93,14 @@ tags:
 - “number”数值
 - “object”对象或null
 - “function”函数
+
 ### undefined类型
 在使用var声明变量但未对其初始化，这个变量值就是undefined
+
 ### null类型
 - null值表示一个空对象指针，所以typeof检测null才会返回object
 - undefined值是派生自null值的，相等性测试null==undefined返回true
+
 ### Boolean类型
 - 两个字面值true和false
 - 转型函数Boolean（）转换规则
@@ -154,6 +162,7 @@ tags:
         </ul>
     
 ### String类型
+
 #### 字符字面量
 特殊字符字面量--转义字符
 <table>
@@ -204,6 +213,7 @@ tags:
 </table>
 
 length属性，取得任何字符串属性长度`alert(texe.length);`
+
 #### 字符串的特点
 字符串一旦创建，值就不能改变，要改变首先要销毁原字符串再用新值字符串填充该变量。
 转换字符变量：
@@ -212,6 +222,7 @@ length属性，取得任何字符串属性长度`alert(texe.length);`
     - 如果值有toString（）方法则调用该方法
     - 如果值为null，返回"null"
     - 如果值为undefined，返回"undefined"
+    
 ### Object类型
 对象，就是一组数据和功能的集合。<br>执行new操作符创建`var 0 = new Object();`
 Object的每个实例都具备一下属性和方法
