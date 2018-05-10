@@ -97,6 +97,26 @@ undefined值是派生自null值的，相等性测试null==undefined返回true
         <td>true</td>
         <td>false</td>
     </tr>
+    <tr>
+        <td>String</td>
+        <td>任何非空字符串</td>
+        <td>空字符串""</td>
+    </tr>
+     <tr>
+        <td>Number</td>
+        <td>任何非零数值（包括无穷大）</td>
+        <td>0和NaN</td>
+    </tr>
+     <tr>
+        <td>Object</td>
+        <td>任何对象</td>
+        <td>null</td>
+    </tr>
+     <tr>
+        <td>Undefined</td>
+        <td>n/a</td>
+        <td>undefined</td>
+    </tr>
 </table>
 ## 操作符
 
