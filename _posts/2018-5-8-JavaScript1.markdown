@@ -10,7 +10,7 @@ tags:
     - js
     - JavaScript
 ---
-> JavaScript高级程序设计第1-5章。<br><br>
+> JavaScript高级程序设计第1-3章。<br><br>
 
 # 第1章 JavaScript简介
 <div>
@@ -49,7 +49,7 @@ tags:
 # 第3章 基本概念
 
 ## 语法
-### 区分大小写
+区分大小写
 ### 标识符
 - 驼峰大小写格式，第一个单词小写，剩下的每个单词首字母大写
 - 不能把关键字、保留字、ture、false、null用作标识符
@@ -251,9 +251,10 @@ Object的每个实例都具备一下属性和方法
     - 相等与不相等
     - 全等于不全等
 - 条件转换符`var max = (num1 > num2) ? num1 : num2;`
-- 赋值操作符 *=、/=、%=、+=、-=、<<=、>>=、>>>=,不会带来任何性能的提升
+- 赋值操作符 `*=`、`/=`、`%=`、`+=`、`-=`、`<<=`、`>>=`、`>>>=`,不会带来任何性能的提升
 
-## 语句 if、while、for、for-in、label、break、continue、with、switch
+## 语句 
+if、while、for、for-in、label、break、continue、with、switch
 ## 函数
 - 位于return后面的语句永远不会执行
 - return不带任何返回值则返回undefined
