@@ -16,23 +16,23 @@ tags:
 <div>
     <br>
     <ol>
-        <br><li>在Netscape Navigator 2正式发布前，Netscape为了搭上媒体炒热的Java的顺风车，临时把LiveScript改名为JavaScript。</li>
+        <li>在Netscape Navigator 2正式发布前，Netscape为了搭上媒体炒热的Java的顺风车，临时把LiveScript改名为JavaScript。</li>
         <br>
-        <br><li>微软在其Internet Explorer 3 中加入了名为JScript的JavaScript实现。</li>
+        <li>微软在其Internet Explorer 3 中加入了名为JScript的JavaScript实现。</li>
         <br>
-        <br><li>欧洲计算机制造商协会ECMA指定39号技术委员会（TC39）完成了ECMA-262--一种名为ECMAScript的新脚本语言标准。</li>
+        <li>欧洲计算机制造商协会ECMA指定39号技术委员会（TC39）完成了ECMA-262--一种名为ECMAScript的新脚本语言标准。</li>
         <br>
-        <br><li>一个完整的JavaScript实现由三个部分组成：核心（ECMAScript）、文档对象模型（DOM）、浏览器对象模型（BOM）。 </li>
+        <li>一个完整的JavaScript实现由三个部分组成：核心（ECMAScript）、文档对象模型（DOM）、浏览器对象模型（BOM）。 </li>
         <br>
-        <br><li>ECMA-262第3版标志着ECMAScript成为一门真正的编程语言。 </li>
+        ECMA-262第3版标志着ECMAScript成为一门真正的编程语言。 </li>
         <br>
-        <br><li>TC29下属的一个小组认为第4版跨度太大，提出ECMAScript3.1的替代性建议。ESMA-262第4版在正式发布前被放弃，ESMAScript3.1成为ECMA-262第5版。 </li>
+        <li>TC29下属的一个小组认为第4版跨度太大，提出ECMAScript3.1的替代性建议。ESMA-262第4版在正式发布前被放弃，ESMAScript3.1成为ECMA-262第5版。 </li>
         <br>
-        <br><li>文档对象模型（DOM）是针对XML但经过扩展用于HTML的应用程序编程接口API，提供访问的操作页面内容的方法和接口。 </li>
+        <li>文档对象模型（DOM）是针对XML但经过扩展用于HTML的应用程序编程接口API，提供访问的操作页面内容的方法和接口。 </li>
         <br>
-        <br><li>浏览器对象模型（BOM），提供与浏览器交互的方法和接口。 </li>
+        <li>浏览器对象模型（BOM），提供与浏览器交互的方法和接口。 </li>
         <br>
-        <br><li>五个主要浏览器：IE微软、Firefox火狐、Chrome谷歌、Safari苹果、Opera欧朋 </li>
+        <li>五个主要浏览器：IE微软、Firefox火狐、Chrome谷歌、Safari苹果、Opera欧朋 </li>
         <br>
     </ol>
 </div>
@@ -59,7 +59,7 @@ tags:
   `*`多行注释
   `*/`
 ### 严格模式
-指定函数中、脚本顶部添加编译指示`"use strict";`
+指定函数中、脚本顶部添加编译指示`"use strict";`为这门语言中容易出错的地方施加限制
 ### 语句
 - 分号;结尾
 - 多条语句组合到一个{}代码块
@@ -76,6 +76,7 @@ tags:
 - 松散类型，保存任何类型的数据
 - var操作符定义的变量是定义该变量的作用域中的局部变量，如果在函数中，变量在函数退出后被销毁。
 ## 数据类型
+基本数据类型：Undefined、Null、Boolean、Number、String<br>复杂数据类型：Object
 ### typeof操作符
 检测变量数据类型，可能返回字符串：
 - “undefined”未定义
@@ -208,10 +209,54 @@ length属性，取得任何字符串属性长度`alert(texe.length);`
     - 如果值有toString（）方法则调用该方法
     - 如果值为null，返回"null"
     - 如果值为undefined，返回"undefined"
-
+### Object类型
+对象，就是一组数据和功能的集合。<br>执行new操作符创建`var 0 = new Object();`
+<br>Object的每个实例都具备一下属性和方法
+    - construction：保留着用于创建当前对象的函数
+    - hasOwnProperty（"propertyName"）：检查给定的属性在当前对象实例中（而不是在实例的原型中）是否存在
+    - isPrototypeOf(object)：检查传入对象对否是当前对象的原型
+    - propertyIsEnumerable（"propertyName"）：检查给定的属性是否能够使用for-in语句来枚举
+    - toLocaleString（）：返回对象的字符串表示，该字符串与执行环境的地区对应
+    - toString（）：返回对象的字符串
+    - valueOf（）：返回对象的字符串、数值、布尔值表示，通常与toString（）方法返回值相同
 ## 操作符
+- 一元操作符
+    - 一元加（+）：放在数值前不会产生任何影响，对非数值应用则如同Number（）转型函数一样转换该值
+- 位操作符
+    - 0表示正，1表示负
+    - 负数以二进制补码（绝对值的反码加1）格式存储
+    - 按位非`~`返回数值反码，数值表示的最底层执行操作，速度更快
+    - 按位与`&`，32位整数每一位对其，全1出1
+    - 按位或`|`，有1出1
+    - 按位异或`^`，不同出1
+    - 左移`<<`、右移`>>`，空位0填充，符号位不动
+    - 无符号左移`<<<`，无符号右移`>>>`，符号位也移动
+- 布尔操作符
+    - 逻辑非`!`<br>对象、非空字符、非零数值（包括Infinity）返回false<br>空字符、0、null、NaN、undefined返回true<br>同时使用两个!!则模拟Bloolean（）转型函数
+    - 逻辑与`&&`，短路操作，第一个操作数能够决定结果则不对第二个操作数求值
+    - 逻辑或`||`，短路操作
+- 乘性操作符
+    - 乘法`*`，如果有一个操作符不是数值，则后台调用Number（）
+    - 除法`/`
+    - 求模`%`
+- 加性操作符，有+0结果为+0
+    - 加法 
+    - 减法
+- 关系操作符<、>、<=、>=
+    - 如果两个操作数是字符串，则比较对应的字符编码。<br>如果是对象，则调用valueOf（）方法，没有则调用toString（）方法。<br>如果是布尔值则转化为数值比较
+    - 如果一个是数值，则将另一个转化为数值再比较
+    - 大写字母字符编码 < 小写字母字符编码
+    - 任何操作符与NaN比较都返回false
+- 相等操作符
+    - 相等与不相等
+    - 全等于不全等
+- 条件转换符`var max = (num1 > num2) ? num1 : num2;`
+- 赋值操作符 *=、/=、%=、+=、-=、<<=、>>=、>>>=,不会带来任何性能的提升
 
-## 语句
-
+## 语句 if、while、for、for-in、label、break、continue、with、switch
 ## 函数
+- 位于return后面的语句永远不会执行
+- return不带任何返回值则返回undefined
+- argument对象类似数组，方括号访问元素，第一个元素`argument[0]`。<br>length属性确定传递了多少了参数,不是定义时命名参数的个数。<br>可以与命名函数一起使用。
+- 没有重载（在同一作用域内，有一组不同参数列表的同名函数），定义两个同名函数，该名字属于后定义的函数
 
