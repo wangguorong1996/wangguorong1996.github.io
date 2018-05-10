@@ -14,6 +14,7 @@ tags:
 
 # 第1章 JavaScript简介
 
+<div>
 <br>
 + 在Netscape Navigator 2正式发布前，Netscape为了搭上媒体炒热的Java的顺风车，临时把LiveScript改名为JavaScript。
 <br>
@@ -33,3 +34,4 @@ ESMAScript3.1成为ECMA-262第5版。
 + 浏览器对象模型（BOM），提供与浏览器交互的方法和接口。
 <br>
 + 五个主要浏览器：IE微软、Firefox火狐、Chrome谷歌、Safari苹果、Opera欧朋
+</div>
