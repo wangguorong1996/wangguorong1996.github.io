@@ -65,13 +65,13 @@ tags:
 多条语句组合到一个{}代码块
 应该在控制语句中使用代码块，即使代码块只有一条语句
 ## 关键字
-break do instanceof typeof
-case else new var
-catch finally return void
-continue for switch while
-debugger function this with
-default if throw
-delete in try
+- break do instanceof typeof
+- case else new var
+- catch finally return void
+- continue for switch while
+- debugger function this with
+- default if throw
+- delete in try
 ## 变量
 松散类型，保存任何类型的数据
 var操作符定义的变量是定义该变量的作用域中的局部变量，如果在函数中，变量在函数退出后被销毁。
