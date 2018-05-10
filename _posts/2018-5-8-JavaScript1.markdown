@@ -82,10 +82,22 @@ var操作符定义的变量是定义该变量的作用域中的局部变量，�
 在使用var声明变量但未对其初始化，这个变量值就是undefined
 ### null类型
 null值表示一个空对象指针，所以typeof检测null才会返回object
-undefined值是派生自null值的，相等性测试null==undefined返回ture
+undefined值是派生自null值的，相等性测试null==undefined返回true
 ### Boolean类型
-两个字面值ture和false
+两个字面值true和false
 转型函数Boolean（）转换规则
+<table>
+    <th>
+        <tr>数据类型</tr>
+        <tr>转换为true的值</tr>
+        <tr>转换为false的值</tr>
+    </th>
+    <td>
+        <tr>Boolean</tr>
+        <tr>true</tr>
+        <tr>false</tr>
+    </td>
+</table>
 ## 操作符
 
 ## 语句
