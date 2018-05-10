@@ -212,13 +212,13 @@ length属性，取得任何字符串属性长度`alert(texe.length);`
 ### Object类型
 对象，就是一组数据和功能的集合。<br>执行new操作符创建`var 0 = new Object();`
 Object的每个实例都具备一下属性和方法
-    - construction：保留着用于创建当前对象的函数
-    - hasOwnProperty（"propertyName"）：检查给定的属性在当前对象实例中（而不是在实例的原型中）是否存在
-    - isPrototypeOf(object)：检查传入对象对否是当前对象的原型
-    - propertyIsEnumerable（"propertyName"）：检查给定的属性是否能够使用for-in语句来枚举
-    - toLocaleString（）：返回对象的字符串表示，该字符串与执行环境的地区对应
-    - toString（）：返回对象的字符串
-    - valueOf（）：返回对象的字符串、数值、布尔值表示，通常与toString（）方法返回值相同
+- construction：保留着用于创建当前对象的函数
+- hasOwnProperty（"propertyName"）：检查给定的属性在当前对象实例中（而不是在实例的原型中）是否存在
+- isPrototypeOf(object)：检查传入对象对否是当前对象的原型
+- propertyIsEnumerable（"propertyName"）：检查给定的属性是否能够使用for-in语句来枚举
+- toLocaleString（）：返回对象的字符串表示，该字符串与执行环境的地区对应
+- toString（）：返回对象的字符串
+- valueOf（）：返回对象的字符串、数值、布尔值表示，通常与toString（）方法返回值相同
 ## 操作符
 - 一元操作符
     - 一元加（+）：放在数值前不会产生任何影响，对非数值应用则如同Number（）转型函数一样转换该值
