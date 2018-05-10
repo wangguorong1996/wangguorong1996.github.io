@@ -14,10 +14,10 @@ tags:
 
 # 第1章 JavaScript简介
 
-1. 在Netscape Navigator 2正式发布前，Netscape为了搭上媒体炒热的Java的顺风车，临时把LiveScript改名为JavaScript。<br>
-2. 微软在其Internet Explorer 3 中加入了名为JScript的JavaScript实现。<br>
-3. 欧洲计算机制造商协会ECMA指定39号技术委员会（TC39）完成了ECMA-262--一种名为ECMAScript的新脚本语言标准。<br>
-4. 一个完整的JavaScript实现由三个部分组成：核心（ECMAScript）、文档对象模型（DOM）、浏览器对象模型（BOM）。<br>
++ 在Netscape Navigator 2正式发布前，Netscape为了搭上媒体炒热的Java的顺风车，临时把LiveScript改名为JavaScript。<br>
+<br>+ 微软在其Internet Explorer 3 中加入了名为JScript的JavaScript实现。<br>
+<br>+ 欧洲计算机制造商协会ECMA指定39号技术委员会（TC39）完成了ECMA-262--一种名为ECMAScript的新脚本语言标准。<br>
+<br>4. 一个完整的JavaScript实现由三个部分组成：核心（ECMAScript）、文档对象模型（DOM）、浏览器对象模型（BOM）。<br>
 5. ECMA-262第3版标志着ECMAScript成为一门真正的编程语言。<br>
 6. TC29下属的一个小组认为第4版跨度太大，提出ECMAScript3.1的替代性建议。ESMA-262第4版在正式发布前被放弃，
 ESMAScript3.1成为ECMA-262第5版。<br>
