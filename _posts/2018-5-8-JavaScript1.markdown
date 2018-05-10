@@ -48,7 +48,7 @@ tags:
 
 # 第3章 基本概念
 
-## 语法
+## 1.语法
 区分大小写
 ### 标识符
 - 驼峰大小写格式，第一个单词小写，剩下的每个单词首字母大写
@@ -64,7 +64,7 @@ tags:
 - 分号;结尾
 - 多条语句组合到一个{}代码块
 - 应该在控制语句中使用代码块，即使代码块只有一条语句
-## 关键字
+## 2.关键字
 - break do instanceof typeof
 - case else new var
 - catch finally return void
@@ -72,10 +72,10 @@ tags:
 - debugger function this with
 - default if throw
 - delete in try
-## 变量
+## 3.变量
 - 松散类型，保存任何类型的数据
 - var操作符定义的变量是定义该变量的作用域中的局部变量，如果在函数中，变量在函数退出后被销毁。
-## 数据类型
+## 4.数据类型
 基本数据类型：Undefined、Null、Boolean、Number、String<br>复杂数据类型：Object
 ### typeof操作符
 检测变量数据类型，可能返回字符串：
@@ -219,7 +219,7 @@ Object的每个实例都具备一下属性和方法
 - toLocaleString（）：返回对象的字符串表示，该字符串与执行环境的地区对应
 - toString（）：返回对象的字符串
 - valueOf（）：返回对象的字符串、数值、布尔值表示，通常与toString（）方法返回值相同
-## 操作符
+## 5.操作符
 - 一元操作符
     - 一元加（+）：放在数值前不会产生任何影响，对非数值应用则如同Number（）转型函数一样转换该值
 - 位操作符
@@ -253,9 +253,9 @@ Object的每个实例都具备一下属性和方法
 - 条件转换符`var max = (num1 > num2) ? num1 : num2;`
 - 赋值操作符 `*=`、`/=`、`%=`、`+=`、`-=`、`<<=`、`>>=`、`>>>=`,不会带来任何性能的提升
 
-## 语句 
+## 6.语句 
 if、while、for、for-in、label、break、continue、with、switch
-## 函数
+## 7.函数
 - 位于return后面的语句永远不会执行
 - return不带任何返回值则返回undefined
 - argument对象类似数组，方括号访问元素，第一个元素`argument[0]`。<br>length属性确定传递了多少了参数,不是定义时命名参数的个数。<br>可以与命名函数一起使用。
