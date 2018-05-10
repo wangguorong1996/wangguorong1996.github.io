@@ -51,19 +51,19 @@ tags:
 ## 语法
 ### 区分大小写
 ### 标识符
-驼峰大小写格式，第一个单词小写，剩下的每个单词首字母大写
-不能把关键字、保留字、ture、false、null用作标识符
+- 驼峰大小写格式，第一个单词小写，剩下的每个单词首字母大写
+- 不能把关键字、保留字、ture、false、null用作标识符
 ### 注释
-// 单行注释
-`/*`
- `*`多行注释
- `*/`
+- // 单行注释
+- `/*`
+  `*`多行注释
+  `*/`
 ### 严格模式
 指定函数中、脚本顶部添加编译指示`"use strict";`
 ### 语句
-分号;结尾
-多条语句组合到一个{}代码块
-应该在控制语句中使用代码块，即使代码块只有一条语句
+- 分号;结尾
+- 多条语句组合到一个{}代码块
+- 应该在控制语句中使用代码块，即使代码块只有一条语句
 ## 关键字
 - break do instanceof typeof
 - case else new var
@@ -73,19 +73,25 @@ tags:
 - default if throw
 - delete in try
 ## 变量
-松散类型，保存任何类型的数据
-var操作符定义的变量是定义该变量的作用域中的局部变量，如果在函数中，变量在函数退出后被销毁。
+- 松散类型，保存任何类型的数据
+- var操作符定义的变量是定义该变量的作用域中的局部变量，如果在函数中，变量在函数退出后被销毁。
 ## 数据类型
 ### typeof操作符
-检测变量数据类型，可能返回字符串：“undefined”未定义、“boolean”布尔值、“string”字符串、“number”数值、“object”对象或null、“function”函数
+检测变量数据类型，可能返回字符串：
+- “undefined”未定义
+- “boolean”布尔值
+- “string”字符串
+- “number”数值
+- “object”对象或null
+- “function”函数
 ### undefined类型
 在使用var声明变量但未对其初始化，这个变量值就是undefined
 ### null类型
-null值表示一个空对象指针，所以typeof检测null才会返回object
-undefined值是派生自null值的，相等性测试null==undefined返回true
+- null值表示一个空对象指针，所以typeof检测null才会返回object
+- undefined值是派生自null值的，相等性测试null==undefined返回true
 ### Boolean类型
-两个字面值true和false
-转型函数Boolean（）转换规则
+- 两个字面值true和false
+- 转型函数Boolean（）转换规则
 <table>
     <tr>
         <th>数据类型</th>
@@ -117,6 +123,74 @@ undefined值是派生自null值的，相等性测试null==undefined返回true
         <td>n/a</td>
         <td>undefined</td>
     </tr>
+</table>
+### Number类型
+- 八进制第一位是0，十六位进制第一位是0x
+- 0.1加0.2不是0.3，而是0.30000000000000004，浮点数值计算会产生舍入误差
+- 正无穷 Infinite
+- 负无穷 -Infinite
+- NaN（Not a Number）是一个特殊的数值，任何数值除以非数值会返回NaN，任何涉及NaN的操作都会返回NaN,NaN与任何数值都不相等包括NaN本身
+`alert(NaN == NaN);     //返回false`
+- isNaN（）函数接受一个任何类型的参数之后，尝试转换为数值（例如字符串"10"或Boolean值），不能转换则返回true
+- 数值转换函数 
+    - Number（）转换任何数据类型
+    - parseInt（）字符串转换成数值
+        -- 如果第一个字符不是数字字符或负号，返回NaN
+        -- 如果第一个字符是数字字符或负号，则继续解析第二个字符直到遇到非数字字符
+        -- 能够识别各种数据格式（十进制、八进制（ES5中不具备了）、十六进制）
+        -- 可为函数提供转换使用的进制作为第二个参数，制定后，字符串可以不带"0x"
+    - pareFloat（）同上
+        -- 字符串中第一个小数点有效，第二个无效
+        -- 始终忽略前导的0，只能解析十进制，无第二参数指定进制用法
+        -- 字符串没有小数点或者小数点后面都是零，返回一个整数
+### String类型
+## 字符字面量
+特殊字符字面量--转义字符
+<table>
+    <tr>
+        <th>字面量</th>
+        <th>含义</th>
+    </tr>
+    <tr>
+        <td>\n</td>
+        <td>换行</td>
+    </tr>
+     <tr>
+        <td>\t</td>
+        <td>制表</td>
+    </tr>
+     <tr>
+        <td>\b</td>
+        <td>退格</td>
+    </tr>
+     <tr>
+        <td>\r</td>
+        <td>回车</td>
+    </tr>
+     <tr>
+        <td>\f</td>
+        <td>进纸</td>
+    </tr>
+     <tr>
+        <td>\\</td>
+        <td>斜杠</td>
+    </tr>
+     <tr>
+        <td>\'</td>
+        <td>单引号</td>
+    </tr>
+     <tr>
+        <td>\"</td>
+        <td>双引号</td>
+    </tr>
+     <tr>
+        <td>\xnn</td>
+        <td>以十六进制代码nn表示一个字符（n为0~F），例如\x41表示"A"</td>
+    </tr>
+     <tr>
+        <td>\unnnn</td>
+        <td>以十六进制代码nnnn表示一个Unicode字符（n为0~F），例如\u03a3表示希腊字符∑</td>
+    </tr>
 </table>
 ## 操作符
 
