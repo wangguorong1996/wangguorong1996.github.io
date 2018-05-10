@@ -87,16 +87,16 @@ undefined值是派生自null值的，相等性测试null==undefined返回true
 两个字面值true和false
 转型函数Boolean（）转换规则
 <table>
-    <th>
-        <tr>数据类型</tr>
-        <tr>转换为true的值</tr>
-        <tr>转换为false的值</tr>
-    </th>
-    <td>
-        <tr>Boolean</tr>
-        <tr>true</tr>
-        <tr>false</tr>
-    </td>
+    <tr>
+        <th>数据类型</th>
+        <th>转换为true的值</th>
+        <th>转换为false的值</th>
+    </tr>
+    <tr>
+        <td>Boolean</td>
+        <td>true</td>
+        <td>false</td>
+    </tr>
 </table>
 ## 操作符
 
