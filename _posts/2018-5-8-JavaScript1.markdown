@@ -211,7 +211,7 @@ length属性，取得任何字符串属性长度`alert(texe.length);`
     - 如果值为undefined，返回"undefined"
 ### Object类型
 对象，就是一组数据和功能的集合。<br>执行new操作符创建`var 0 = new Object();`
-<br>Object的每个实例都具备一下属性和方法
+Object的每个实例都具备一下属性和方法
     - construction：保留着用于创建当前对象的函数
     - hasOwnProperty（"propertyName"）：检查给定的属性在当前对象实例中（而不是在实例的原型中）是否存在
     - isPrototypeOf(object)：检查传入对象对否是当前对象的原型
