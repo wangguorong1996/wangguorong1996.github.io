@@ -36,10 +36,10 @@ tags:
 - 数组的项数保存在length属性中，可以设置这个属性，从数组的末尾移除或添加项。
 ```javascript
     var colors = ["red","blue","green"];
-    colors.length = 2;                  //移除项
-    alert(colors[2]);                   //undefined
+    colors.length = 2;                  //移除项
+    alert(colors[2]);                   //undefined
     colors[colors.length] = "black";    //添加项
-    colors.length = 4;                  //添加项,不过项值为undefined
+    colors.length = 4;                  //添加项,不过项值为undefined
 ```
 
 - Array.isArray()方法，确定值是不是数组，不管在哪个全局执行环境中创建的
