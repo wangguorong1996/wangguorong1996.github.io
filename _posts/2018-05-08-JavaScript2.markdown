@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      "JavaScript高级程序设计（二)"
 subtitle:   "学习笔记"          
