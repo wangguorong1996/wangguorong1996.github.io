@@ -31,11 +31,11 @@ tags:
     - new后跟Array构造函数`var colors = new Array();`
     - 数组字面量表示法，`var colors = ["red","blue","green"];`
 - 数组的项数保存在length属性中，可以设置这个属性，从数组的末尾移除或添加项。
-`var colors = ["red","blue","green"];`
-`colors.length = 2;                  //移除项`
-`alert(colors[2]);                   //undefined`
-`colors[colors.length] = "black";    //添加项`
-`colors.length = 4;                  //添加项,不过项值为undefined`
+    - `var colors = ["red","blue","green"];`
+    - `colors.length = 2;                  //移除项`
+    - `alert(colors[2]);                   //undefined`
+    - `colors[colors.length] = "black";    //添加项`
+    - `colors.length = 4;                  //添加项,不过项值为undefined`
 - Array.isArray()方法，确定值是不是数组，不管在哪个全局执行环境中创建的
 - 转换方法
     - toString()方法，返回数组每个值的字符串形式拼接成一个以逗号分隔的字符串
@@ -69,8 +69,8 @@ tags:
         - lastIndexOf()，数组末尾向前查找
 
 - 迭代方法
-    - 
-    - 的函数接收三个参数：数组项的值，该项位置（index则全部项），数组对象。都不会修改数组中的值
+    - 接收两个参数，要在每一项上运行的函数和运行该函数的作用域对象（可选）
+    - 调用的函数接收三个参数：数组项的值，该项位置（index则全部项），数组对象。都不会修改数组中的值
         - every()：对数组每一项运行给定函数，每一项都返回true则返回true
         - filter()：返回true的项组成的数组
         - forEach()：无返回值
