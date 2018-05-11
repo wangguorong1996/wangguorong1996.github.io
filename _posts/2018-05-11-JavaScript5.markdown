@@ -19,9 +19,12 @@ tags:
 创建Object实例的方式：
 - 使用new操作符后跟Object构造函数`var person = new Object();`
 - 对象字面量表示法
-                    `var person = {
-                        name : "AAA",
-                        age : 20};`
+```javascript
+    var person = {
+        name : "AAA",
+        age : 20
+    };
+```
 - 访问对象属性：
     - 点表示法`alert(person.name);`
     - 方括号表示法，属性是字符串形式`alert(person["name"]);`
@@ -35,7 +38,7 @@ tags:
     var colors = ["red","blue","green"];`
     colors.length = 2;                  //移除项
     alert(colors[2]);                   //undefined
-    colors[colors.length] = "black";    //添加项`
+    colors[colors.length] = "black";    //添加项
     colors.length = 4;                  //添加项,不过项值为undefined
 ```
 
@@ -96,5 +99,6 @@ tags:
 
 ## 4.RegExp类型
 通过此类型支持正则表达式
-- 创建一个正则表达式`var expression = / pattern模式 / flags标志(g全局模式,i不区分大小写模式,m多行模式) ;`
+- 创建一个正则表达式
+`var expression = / pattern模式 / flags标志(g全局模式,i不区分大小写模式,m多行模式) ;`
 - 
