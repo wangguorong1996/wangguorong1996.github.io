@@ -35,7 +35,7 @@ tags:
     - 数组字面量表示法，`var colors = ["red","blue","green"];`
 - 数组的项数保存在length属性中，可以设置这个属性，从数组的末尾移除或添加项。
 ```javascript
-    var colors = ["red","blue","green"];`
+    var colors = ["red","blue","green"];
     colors.length = 2;                  //移除项
     alert(colors[2]);                   //undefined
     colors[colors.length] = "black";    //添加项
