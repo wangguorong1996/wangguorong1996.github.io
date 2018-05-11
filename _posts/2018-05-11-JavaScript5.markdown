@@ -14,7 +14,7 @@ tags:
 
 # 第5章 引用类型
 对象是某个特定引用类型的实例。
-原生引用类型
+原生引用类型：
 ## 1.Object类型
 创建Object实例的方式：
 - 使用new操作符后跟Object构造函数`var person = new Object();`
@@ -31,11 +31,14 @@ tags:
     - new后跟Array构造函数`var colors = new Array();`
     - 数组字面量表示法，`var colors = ["red","blue","green"];`
 - 数组的项数保存在length属性中，可以设置这个属性，从数组的末尾移除或添加项。
-    - `var colors = ["red","blue","green"];`
-    - `colors.length = 2;                  //移除项`
-    - `alert(colors[2]);                   //undefined`
-    - `colors[colors.length] = "black";    //添加项`
-    - `colors.length = 4;                  //添加项,不过项值为undefined`
+```javascript
+    var colors = ["red","blue","green"];`
+    colors.length = 2;                  //移除项
+    alert(colors[2]);                   //undefined
+    colors[colors.length] = "black";    //添加项`
+    colors.length = 4;                  //添加项,不过项值为undefined
+```
+
 - Array.isArray()方法，确定值是不是数组，不管在哪个全局执行环境中创建的
 - 转换方法
     - toString()方法，返回数组每个值的字符串形式拼接成一个以逗号分隔的字符串
