@@ -98,7 +98,13 @@ tags:
     - Date.now()，返回表示调用此方法的日期和时间的毫秒数
 
 ## 4.RegExp类型
-通过此类型支持正则表达式
+通过RegExp类型支持正则表达式
 - 创建一个正则表达式
-`var expression = / pattern模式 / flags标志(g全局模式,i不区分大小写模式,m多行模式) ;`
+    - 字面量形式，共享同一个RegExp实例（ES5规定每次都创建新的实例） 
+        - `var expression = / pattern模式 / flags标志(g全局模式,i不区分大小写模式,m多行模式) ;`
+        - 元字符必须转义。匹配第一个`[bc]at`：`/\[bc\]at/`
+    - RegExp构造函数，每次都创建一个新的实例。接收两个字符串参数，匹配模式和标志。
+        - `var expression = new RegExp("pattern","flags")`
+        - 所有元字符必须双重转义。匹配第一个`[bc]at`：`/\\[bc\\]at/`
+- 元字符：`() {} [] | \ ? . $ ^ * + `
 - 
