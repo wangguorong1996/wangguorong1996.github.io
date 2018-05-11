@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript高级程序设计（二)"
 subtitle:   "学习笔记"          
-date:       2018-05-08 10:25:00
+date:       2018-05-08 15:25:00
 author:     "GR"
 header-img: "img/post-bg-javascript1.jpg"
 tags:
