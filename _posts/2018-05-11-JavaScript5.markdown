@@ -26,13 +26,13 @@ tags:
     };
 ```
 - 访问对象属性：
-    - 点表示法`alert(person.name);`
-    - 方括号表示法，属性是字符串形式`alert(person["name"]);`
+    - 点表示法 `alert(person.name);`
+    - 方括号表示法，属性是字符串形式 `alert(person["name"]);`
 
 ## 2.Array类型
 - 创建数组方式：
-    - new后跟Array构造函数`var colors = new Array();`
-    - 数组字面量表示法，`var colors = ["red","blue","green"];`
+    - new后跟Array构造函数 `var colors = new Array();`
+    - 数组字面量表示法， `var colors = ["red","blue","green"];`
 - 数组的项数保存在length属性中，可以设置这个属性，从数组的末尾移除或添加项。
 ```javascript
     var colors = ["red","blue","green"];
@@ -91,7 +91,7 @@ tags:
         - reduceRight()，反遍历
 
 ## 3.Date类型
-- 创建一个日期对象，new操作符加Date构建函数`var now = new Date()；`
+- 创建一个日期对象，new操作符加Date构建函数 `var now = new Date()；`
 - 方法：
     - Date.parse()，接收一个表示日期的字符串参数，返回相应日期的毫秒数。如果字符串不能表示日期返回NaN。直接将日期字符串传递给构造函数Date会后台调用Date.parse()
     - Date.UTC()，可接收四个参数，前两个必须参数：年份，基于0的月份，基于1的日（默认1），基于0的小时数，分钟，秒以及毫秒数（默认0）
