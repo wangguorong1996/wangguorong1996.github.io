@@ -107,4 +107,25 @@ tags:
         - `var expression = new RegExp("pattern","flags")`
         - 所有元字符必须双重转义。匹配第一个`[bc]at`：`/\\[bc\\]at/`
 - 元字符：`() {} [] | \ ? . $ ^ * + `
-- 
+- RegExp实例属性
+    - global：布尔值，是否设置了g标志
+    - ignoreCase：布尔值，是否设置了i标志
+    - multiline：布尔值，是否设置了m标志
+    - lastIndex：整数，开始搜索下一匹配项的字符位置，0起
+    - source：正则表达式的字符串表示，字面量形式而非传入构造函数的字符串模式（即无双重转义）
+- RegExp实例方法
+    - exec()方法，接收要应用模式的字符串作为参数，返回第一个匹配项信息的数组（Array的实例，但包含匹配项位置index和应用正则表达式的字符串input属性），无则返回null
+    - test()方法，接收一个字符串参数，模式与该参数匹配返回true，否则false。常用在验证用户输入
+    - 继承的toLocaleString()和toString()方法都会返回正则表达式的字面量，与创建方式无关。
+
+## 5.Function类型
+每个函数都是Function类型的实例，函数是对象，函数名是指向函数对象的指针
+- 定义方法
+    - 函数声明语句定义法 
+        ```javascript
+        function sum(num1,num2){
+            return num1 + num2;
+        }
+        ```
+    - Function构造函数法
+        
