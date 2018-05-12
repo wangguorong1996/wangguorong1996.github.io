@@ -121,11 +121,11 @@ tags:
 ## 5.Function类型
 每个函数都是Function类型的实例，函数是对象，函数名是指向函数对象的指针
 - 定义方法
-    - 函数声明语句定义法 
-        ```javascript
+    - 函数声明语句定义法 
+```javascript
         function sum(num1,num2){
             return num1 + num2;
         }
-        ```
-    - Function构造函数法
+```
+    - Function构造函数法
         
