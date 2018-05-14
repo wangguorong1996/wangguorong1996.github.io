@@ -123,9 +123,27 @@ tags:
 - 定义方法
     - 函数声明语句定义法 
 ```javascript
-        function sum(num1,num2){
-            return num1 + num2;
-        }
+    function sum(num1,num2){
+        return num1 + num2;
+    }
 ```
+
     - Function构造函数法
-        
+    
+```javascript
+    var sum = new Function("num1",num2","return num1 + num2");   //不推荐此法
+```
+- 使用不带圆括号的函数名是访问函数指针，而非调用函数
+- 没有重载，声明两个同名函数，后面的函数覆盖前面的函数
+- 解析器在执行环境中加载数据，先读取函数声明并使其在执行任何代码之前可用。函数表达式必须等到解析器执行他所在的代码行在真正被解析执行。
+- 函数内部有两个特殊对象，arguments和this。
+    - arguments：类数组对象，包含传入函数的所有参数。有一个callee的属性，是一个指针，指向拥有这个arguments对象的函数，可消除紧密耦合，实现更松散的耦合（函数内部调用函数本身的情况）。
+    - this：引用函数执行环境的环境对象，也就是this值。全局作用域中调用函数，this对象引用的是window
+    - caller属性，保存着调用当前函数的函数的引用（A调用B，所以B.caller指向A）。全局作用域中调用当前函数，它的值为null
+- 函数的属性和方法
+    - 两个属性：
+        - length：函数希望接收的命名函数的个数
+        - prototype：
+    - 两个方法：都在特定的作用域中调用函数
+        - apply()：接收两个参数，一个是其中运行函数的作用域，另一个是参数数组（可以是Array的实例，也可以是arguments对象）
+        - call()：
