@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "2019新的开始，新的野望"
+subtitle:   "完成毕业论文和学习硬件设计，将是2019上半年的主要工作"
+date:       2019-01-25 11:13:00
+author:     "GR"
+header-img: "img/post-bg-markdown.jpg"
+tags:
+    - 2019
+    - 硬件设计
+    - 毕业论文
+---
+
+> 2019新的开始，新的野望。<br><br>
+> 测试。
